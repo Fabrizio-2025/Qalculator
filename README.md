@@ -1,2 +1,2 @@
 # Qalculator
-Just a qalculator ;)
+Just a qalculator, just starting some good stuff here... ;)
