@@ -5,6 +5,7 @@
 QCalWindow::QCalWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::QCalWindow)
 {
     ui->setupUi(this);
+    setWindowTitle("Qalculator 1.0");
 }
 //Destructor
 QCalWindow::~QCalWindow()
