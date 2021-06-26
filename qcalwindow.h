@@ -15,6 +15,10 @@ public:
     QCalWindow(QWidget *parent = nullptr);
     ~QCalWindow();
 
+private slots:
+    void on_pB1_clicked();
+
+
 private:
     Ui::QCalWindow *ui;
 };
