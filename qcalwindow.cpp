@@ -6,7 +6,7 @@ QCalWindow::QCalWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::QCalWi
 {
     ui->setupUi(this);
     ans = 0;
-    setWindowTitle("Qalculator 1.0");
+    setWindowTitle("Qalculator 1.0"); //setWindowIcon(QIcon("calculator.png"));
     setFixedSize(273,344);
 }
 //Destructor
