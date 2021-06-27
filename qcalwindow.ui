@@ -401,8 +401,8 @@
      </property>
      <property name="font">
       <font>
-       <family>Cantarell</family>
-       <pointsize>12</pointsize>
+       <family>Nirmala UI</family>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
