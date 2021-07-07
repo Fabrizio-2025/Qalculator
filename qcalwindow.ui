@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>273</width>
-    <height>344</height>
+    <height>363</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>10</x>
       <y>10</y>
       <width>251</width>
-      <height>281</height>
+      <height>311</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -415,6 +415,34 @@
      </property>
      <property name="text">
       <string>clear</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pBDot">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>270</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Nirmala UI</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color : rgb(0, 0, 0);	
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 			rgba(255, 255, 0, 255), stop:1 rgba(241, 159, 22, 255));
+}
+</string>
+     </property>
+     <property name="text">
+      <string>.</string>
      </property>
     </widget>
    </widget>

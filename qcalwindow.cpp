@@ -7,7 +7,7 @@ QCalWindow::QCalWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::QCalWi
     ui->setupUi(this);
     ans = 0;
     setWindowTitle("Qalculator 1.0"); //setWindowIcon(QIcon("calculator.png"));
-    setFixedSize(273,344);
+    setFixedSize(273,363);
 }
 //Destructor
 QCalWindow::~QCalWindow()
@@ -25,7 +25,7 @@ void QCalWindow::on_pB7_clicked() { ui->lineNumEdit->setText(ui->lineNumEdit->te
 void QCalWindow::on_pB8_clicked() { ui->lineNumEdit->setText(ui->lineNumEdit->text() + "8"); }
 void QCalWindow::on_pB9_clicked() { ui->lineNumEdit->setText(ui->lineNumEdit->text() + "9"); }
 void QCalWindow::on_pB0_clicked() { ui->lineNumEdit->setText(ui->lineNumEdit->text() + "0"); }
-
+void QCalWindow::on_pBDot_clicked() { ui->lineNumEdit->setText(ui->lineNumEdit->text() + ".");}
 void QCalWindow::on_pBSum_clicked()
 {
     flagOp = 1;

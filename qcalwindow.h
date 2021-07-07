@@ -34,6 +34,7 @@ private slots:
     void on_pBRes_clicked();
     void on_pBEq_clicked();
     void on_pBClear_clicked();
+    void on_pBDot_clicked();
 
 private:
     Ui::QCalWindow *ui;

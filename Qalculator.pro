@@ -28,4 +28,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES +=
 
+#The icon, DO NOT forget this command.
 RC_ICONS = calculator.ico
